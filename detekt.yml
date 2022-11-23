@@ -608,7 +608,7 @@ style:
   ObjectLiteralToLambda:
     active: true
   OptionalAbstractKeyword:
-    active: false # was true
+    active: true
   OptionalUnit:
     active: false
   OptionalWhenBraces:
@@ -624,7 +624,7 @@ style:
   RedundantVisibilityModifierRule:
     active: false
   ReturnCount:
-    active: false # was true
+    active: true
     max: 2
     excludedFunctions: 'equals'
     excludeLabeled: false
