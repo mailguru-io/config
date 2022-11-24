@@ -503,7 +503,7 @@ style:
   DataClassShouldBeImmutable:
     active: false
   DestructuringDeclarationWithTooManyEntries:
-    active: false # was true
+    active: true
     maxDestructuringEntries: 3
   EqualsNullCall:
     active: true
@@ -533,6 +533,7 @@ style:
     methods:
       - 'kotlin.io.print'
       - 'kotlin.io.println'
+      - 'Sentry.captureException'
   ForbiddenPublicDataClass:
     active: true
     excludes: ['**']
@@ -547,7 +548,7 @@ style:
     ignoreOverridden: false
     ignoreUsageInGenerics: false
   FunctionOnlyReturningConstant:
-    active: false # was true
+    active: true
     ignoreOverridableFunction: true
     ignoreActualFunction: true
     excludedFunctions: ''
@@ -633,7 +634,7 @@ style:
   SafeCast:
     active: true
   SerialVersionUIDInSerializableClass:
-    active: false # was true
+    active: true
   SpacingBetweenPackageAndImports:
     active: false
   ThrowsCount:
